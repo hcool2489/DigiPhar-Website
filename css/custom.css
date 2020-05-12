@@ -1337,7 +1337,25 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 
 }
 
+.brnd img{
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width:150px;
+  background-color:white;
+  box-shadow: 5px 5px 8px #888888;
+}
 
+.cert img{
+  width:110px;
+  height:80px;
+}
+
+.cert img:hover{
+  width:110px;
+  height:80px;
+  box-shadow: 2px 2px 3px;
+}
 
 
 
