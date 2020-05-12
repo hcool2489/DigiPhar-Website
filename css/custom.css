@@ -36,7 +36,7 @@ p {
     padding: 0;
 }
 .navbar-brand img {
-    width: 220px;
+    height: 50px;
 }
 #preloader {
     width: 100%;
@@ -102,7 +102,7 @@ header {
 }
 .right-header {
     float: right;
-	margin:11px 0;
+	margin:17px 0;
 }
 .header-info {
     float: left;
