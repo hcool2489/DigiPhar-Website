@@ -589,6 +589,7 @@
          <!-- end container -->
       </div>
       <!-- end section -->
+	  
       <div id="getintouch" class="section wb wow fadeIn" style="padding-bottom:0;">
          <div class="container">
             <div class="heading">
@@ -598,31 +599,32 @@
          </div>
          <div class="contact-section">
             <div class="form-contant">
-               <form id="ajax-contact" action="assets/mailer.php" method="post">
+			   <form class="jotform-form" action="https://submit.jotform.com/submit/201322036755043/" method="post" name="form_201322036755043" id="201322036755043" accept-charset="utf-8" autocomplete="on">
+			      <input type="hidden" name="formID" value="201322036755043" /> <input type="hidden" id="JWTContainer" value="" /> <input type="hidden" id="cardinalOrderNumber" value="" /> 
                   <div class="row">
                      <div class="col-md-6">
                         <div class="form-group in_name">
-                           <input type="text" class="form-control" placeholder="Name" required="required">
+						   <input type="text" id="input_1" name="q1_typeA" data-type="input-textbox" class="form-control form-textbox validate[required]" style="color:#e4e4e4;" data-component="textbox" aria-labelledby="label_1" placeholder="Name" required="required" >
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="form-group in_email">
-                           <input type="email" class="form-control" placeholder="E-mail" required="required">
+						   <input type="text" id="input_2" name="q2_typeA2" data-type="input-textbox" style="color:#e4e4e4;" class="form-control form-textbox validate[required, Email]" data-component="textbox" placeholder="E-mail" aria-labelledby="label_2" required="required" >
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="form-group in_email">
-                           <input type="tel" class="form-control" id="phone" placeholder="Phone" required="required">
+						<input type="text" id="input_3" name="q3_typeA3" style="color:#e4e4e4;" data-type="input-textbox" class="form-control form-textbox validate[Numeric]" data-component="textbox" placeholder="Phone" aria-labelledby="label_3" >
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="form-group in_email">
-                           <input type="text" class="form-control" id="subject" placeholder="Subject" required="required">
+							<input type="text" style="color:#e4e4e4;" id="input_4" name="q4_subject" data-type="input-textbox" class="form-control form-textbox"data-component="textbox" placeholder="Subject" aria-labelledby="label_4">
                         </div>
                      </div>
                      <div class="col-md-12">
                         <div class="form-group in_message"> 
-                           <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"></textarea>
+						   <textarea id="input_5" class="form-control form-textarea validate[required]" name="q5_message" style="color:#e4e4e4;" rows="5" data-component="textarea" required="required" placeholder="Message" aria-labelledby="label_5"></textarea>
                         </div>
                         <div class="actions">
                            <input type="submit" value="Send Message" name="submit" id="submitButton" class="btn small" title="Submit Your Message!">
