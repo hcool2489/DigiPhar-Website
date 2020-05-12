@@ -68,7 +68,7 @@ header {
 }
 #home.first-section {
     position: relative;
-    min-height: 650px;
+    height: 450px;
     margin-top: 145px;
 }
 .header-bottom nav.main-menu {
@@ -220,10 +220,6 @@ header {
     padding: 15px 25px;
     font-size: 18px;
     font-weight: 600;
-}
-#home.first-section {
-    position: relative;
-    min-height: 650px;
 }
 #home.first-section::after {
     content: "";
@@ -1199,10 +1195,6 @@ header {
     color: #fff;
     position: relative;
 }
-#home.first-section {
-    position: relative;
-    min-height: auto;
-}	
 .service-time.middle::before {
 	display:none;
 }
