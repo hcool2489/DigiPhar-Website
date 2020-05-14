@@ -114,19 +114,19 @@ header {
 .info-inner span.icontop {
     float: left;
     background: #157fda;
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     text-align: center;
     line-height: normal;
-    padding: 10px 12px;
+    padding: 5px 6px;
     margin-right: 15px;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 	transition: ease all 1s;
 }
 .iconcont {
     float: left;
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: -1px;
     margin: 4px 0;
 }
@@ -135,7 +135,7 @@ header {
     margin-left: 50px;
 }
 .info-inner span.icontop img {
-	width:100%;
+	width:80%;
 }
 .serch-bar {
     float: right;
