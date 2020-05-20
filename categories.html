@@ -35,7 +35,7 @@
 	<!-- [if lt IE 9] -->
 	<style>
 		#sidebar{
-		z-index:999;
+			z-index:999;
 		}
 	</style>
 	</head>
@@ -417,11 +417,8 @@
 		<script type="text/javascript">
 			$(function(){
 				var activediv = $(location).attr('hash');
-				if(activediv != '')
+				if(!activediv == '')
 					go(activediv);
-				else{
-					$('.notfound').hide();
-				}
 			})
 			$(document).ready(function () {
 			    $("#sidebar").mCustomScrollbar({
