@@ -209,12 +209,17 @@ var TxtType = function(el, toRotate, period) {
     };
 
 	var prevScrollpos = window.pageYOffset;
+	var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 	window.onscroll = function() {
 	  var currentScrollPos = window.pageYOffset;
 	  if (prevScrollpos > currentScrollPos) {
 		$('.header-top').show();
+		if(width<=767)
+			$('.navbar-toggle').show();
 	  } else {
 		$('.header-top').hide();
+		if(width<=767)
+			$('.navbar-toggle').hide();
 	  }
 	  prevScrollpos = currentScrollPos;
 	}
