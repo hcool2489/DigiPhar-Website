@@ -208,14 +208,13 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
 
-/*== map js ==*/
-
-    function myMap() {
-        var mapProp= {
-            center:new google.maps.LatLng(51.508742,-0.120850),
-            zoom:5,
-        };
-        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    }
-	
-/*== map js ==*/	
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	  var currentScrollPos = window.pageYOffset;
+	  if (prevScrollpos > currentScrollPos) {
+		$('.header-top').show();
+	  } else {
+		$('.header-top').hide();
+	  }
+	  prevScrollpos = currentScrollPos;
+	}
