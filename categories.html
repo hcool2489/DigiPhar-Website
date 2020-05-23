@@ -43,32 +43,7 @@
 		<div class="wrapper">
 			<!-- Sidebar Holder -->
 			<nav id="sidebar">
-				<!-- <div id="dismiss"> -->
-				<!-- <i class="glyphicon glyphicon-arrow-left"></i> -->
-				<!-- </div> -->
-				<div class="sidebar-header">
-					<h3>Product Categories</h3>
-				</div>
-				<ul class="dismiss-ul list-unstyled components">
-					<li>
-						<a href="#" onclick="go('.all')">All</a>
-					</li>
-					<li>
-						<a href="#medical-devices" onclick="go('#medical-devices')">Medical Devices <i class="right glyphicon glyphicon-remove"></i></a>
-					</li>
-					<li>
-						<a href="#medical-equipment" onclick="go('#medical-equipment')">Medical Equipments <i class="right glyphicon glyphicon-eye-close"></i></a>
-					</li>
-					<li>
-						<a href="#">Medical Consumables</a>
-					</li>
-					<li>
-						<a href="#">Medical Aids</a>
-					</li>
-					<li>
-						<a href="#">Hospital Furnitures</a>
-					</li>
-				</ul>
+				
 			</nav>
 			<div class="content">
 				<!-- LOADER -->
@@ -334,72 +309,10 @@
 					<!-- end container -->
 				</div>
 				<footer id="footer" class="footer-area wow fadeIn">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="logo padding">
-									<a href=""><img src="images/logo.png" alt=""></a>
-									<p>DigiPhar is the best in supplying high grade medical equipments, originated and manufactured in India. Special Products for corona virus(says COVID-19)</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="footer-info padding">
-									<h3>CONTACT US</h3>
-									<p><i class="fa fa-map-marker" aria-hidden="true"></i> Delhi, India</p>
-									<p><a href="mailto:digiphar.inc@gmail.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> digiphar.inc@gmail.com</a></p>
-									<p><a href="tel:+919810034369"><i class="fa fa-phone" aria-hidden="true"></i> (+91) 981 003 4369</a></p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="subcriber-info">
-									<h3>SUBSCRIBE</h3>
-									<p>Get latest news about our new products and services.</p>
-									<div class="subcriber-box">
-										<form id="mc-form" class="mc-form">
-											<div class="newsletter-form">
-												<input type="email" autocomplete="off" id="mc-email" placeholder="Email address" class="form-control" name="EMAIL">
-												<button class="mc-submit" type="submit"><i class="fa fa-paper-plane"></i></button> 
-												<div class="clearfix"></div>
-												<!-- mailchimp-alerts Start -->
-												<div class="mailchimp-alerts">
-													<div class="mailchimp-submitting"></div>
-													<!-- mailchimp-submitting end -->
-													<div class="mailchimp-success"></div>
-													<!-- mailchimp-success end -->
-													<div class="mailchimp-error"></div>
-													<!-- mailchimp-error end -->
-												</div>
-												<!-- mailchimp-alerts end -->
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+				
 				</footer>
 				<div class="copyright-area wow fadeIn">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8">
-								<div class="footer-text">
-									<p>© Since 2020 DigiPhar. All Rights Reserved.</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="social">
-									<ul class="social-links">
-										<li><a href=""><i class="fa fa-rss"></i></a></li>
-										<li><a href=""><i class="fa fa-facebook"></i></a></li>
-										<li><a href=""><i class="fa fa-twitter"></i></a></li>
-										<li><a href=""><i class="fa fa-google-plus"></i></a></li>
-										<li><a href=""><i class="fa fa-youtube"></i></a></li>
-										<li><a href=""><i class="fa fa-pinterest"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
+				
 				</div>
 				<!-- end copyrights -->
 				<a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
@@ -441,6 +354,12 @@
 				$('.all').hide();
 				$(id).show();
 			}
+
+			$(function(){
+			  $("#footer").load("footer.html");
+			  $(".copyright-area").load("copyright.html");
+			  $("#sidebar").load("category-sidebar.html");
+			});
 		</script>
 	</body>
 </html>
