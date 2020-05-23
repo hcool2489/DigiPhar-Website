@@ -106,7 +106,7 @@ a[aria-expanded="true"]::before {
 
 
 ul ul a {
-    font-size: 0.9em !important;
+    font-size: 0.8em !important;
     padding-left: 30px !important;
     background: #157fda;
 }
