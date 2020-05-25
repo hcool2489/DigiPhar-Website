@@ -147,14 +147,14 @@
 #sidebarCollapse{
 	background-color: rgba(60,61,65,0.5);
     z-index: 100;
-    width: 170px;
-    height: 40px;
+    width: 180px;
+    height: 45px;
     position: fixed;
-    top: 150px;
+    top: 175px;
     border-radius: 3px;
     left: 50px;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     color: #ffffff !important;
     cursor: pointer;
 }

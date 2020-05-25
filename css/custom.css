@@ -36,7 +36,7 @@ p {
     padding: 0;
 }
 .navbar-brand img {
-    height: 50px;
+    height: 80px;
 }
 #preloader {
     width: 100%;
@@ -1126,6 +1126,12 @@ nav.main-menu .navbar-toggle {
 
 /** mobile **/
 
+@media (max-width:460px){
+	.navbar-brand img{
+		height:50px;
+	}
+}
+
 @media (max-width:767px) {
 header {
     float: left;
@@ -1141,7 +1147,6 @@ header {
     margin-top: 0;
 }
 .navbar-brand img {
-    width: 165px;
     position: relative;
     right: 10px;
 }
