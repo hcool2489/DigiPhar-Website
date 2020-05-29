@@ -6,11 +6,11 @@
 
       <loc>https://www.digiphar.in/</loc>
 
-      <lastmod>2020-05-23</lastmod>
+      <lastmod>2020-05-29</lastmod>
 
       <changefreq>weekly</changefreq>
 
-      <priority>0.8</priority>
+      <priority>0.9</priority>
 
    </url>
 
@@ -18,11 +18,71 @@
 
       <loc>https://www.digiphar.in/categories.html</loc>
 
-      <lastmod>2020-05-23</lastmod>
+      <lastmod>2020-05-29</lastmod>
 	  
 	  <changefreq>weekly</changefreq>
 	  
 	  <priority>0.6</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/mask.html</loc>
+
+      <lastmod>2020-05-29</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/gloves.html</loc>
+
+      <lastmod>2020-05-29</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/goggles.html</loc>
+
+      <lastmod>2020-05-29</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/sanitizer.html</loc>
+
+      <lastmod>2020-05-29</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/face-sheild.html</loc>
+
+      <lastmod>2020-05-29</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
 
    </url>
 
