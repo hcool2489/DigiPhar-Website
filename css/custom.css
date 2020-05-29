@@ -773,7 +773,7 @@ body.clinic_version .footer .widget-title h3 {
     width: 100%;
 }
 .logo img {
-    width: 250px;
+    width: 305px;
     margin-bottom: 30px;
 }
 .footer-area p {
@@ -1364,11 +1364,11 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
   box-shadow: 2px 2px 3px;
 }
 
-#categories .service-widget{
-	box-shadow: 2px 2px 3px;
+.grid .service-widget{
+	margin-bottom:15px;
 }
 
-#categories .service-widget:hover{
+.grid .service-widget:hover{
 	box-shadow: 5px 5px 8px #888888;
 }
 
@@ -1383,7 +1383,7 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 	font-size:20px;
 	font-weight:bold;
 }
-#categories .service-widget:hover .not-avail {
+.grid .service-widget:hover .not-avail {
     display:block;
     background-color:black;
     top:0;
