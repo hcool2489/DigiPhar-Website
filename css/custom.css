@@ -1390,6 +1390,12 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
     opacity:0.70;
 
 }
-
-
-
+.gsc-control-cse{
+	height:60px;
+}
+.gsc-input-box{
+	height:30px;
+}
+.gsc-input{
+	margin-top:-5px;
+}
