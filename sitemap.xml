@@ -121,5 +121,29 @@
 	  <priority>0.3</priority>
 
    </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/pocket-device.html</loc>
+
+      <lastmod>2020-06-02</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/spray-machine.html</loc>
+
+      <lastmod>2020-06-02</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
+
+   </url>
 
 </urlset>
