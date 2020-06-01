@@ -18,7 +18,7 @@
 
       <loc>https://www.digiphar.in/categories.html</loc>
 
-      <lastmod>2020-05-29</lastmod>
+      <lastmod>2020-06-02</lastmod>
 	  
 	  <changefreq>weekly</changefreq>
 	  
@@ -79,6 +79,42 @@
       <loc>https://www.digiphar.in/product/face-sheild.html</loc>
 
       <lastmod>2020-05-29</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/automatic-sanitizer-device.html</loc>
+
+      <lastmod>2020-06-02</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/fogging-machine.html</loc>
+
+      <lastmod>2020-06-02</lastmod>
+	  
+	  <changefreq>weekly</changefreq>
+	  
+	  <priority>0.3</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>https://www.digiphar.in/product/thermometer.html</loc>
+
+      <lastmod>2020-06-02</lastmod>
 	  
 	  <changefreq>weekly</changefreq>
 	  
