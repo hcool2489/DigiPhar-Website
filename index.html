@@ -439,6 +439,15 @@ Not only our products abide to ISO 9001:2015, and CE standards, but we also cons
       <!-- all plugins -->
       <script src="js/custom.js"></script>
 	  <script>
+		$(window).load(function(){
+			if($('.header-bottom').css('visibility') == 'hidden'){
+				var activediv = $(location).attr('hash');
+				if(activediv != ''){
+					$('.header-bottom').css('visibility','visible');
+					$('.header-top').css('visibility','visible');
+				}
+			}
+		});
 		$(function(){
 		  $("#footer").load("footer.html");
 		  $(".copyright-area").load("copyright.html");
