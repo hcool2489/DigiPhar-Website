@@ -720,7 +720,11 @@ body.clinic_version .footer .widget-title h3 {
     float: left;
     width: 100%;
     min-height: 450px;
-    background: yellow;
+	background-image: url('../images/bg-testimonial.png');
+    background-position: bottom;
+    background-attachment: fixed;
+	border: 1px solid #efeded;
+	border-left: 1px solid #000000cc;
 }
 .contact-section {
 	position:relative;
@@ -1245,7 +1249,11 @@ body.clinic_version .desc {
     float: left;
     width: 100%;
     min-height: 540px;
-    background: yellow;
+	background-image: url('../images/bg-testimonial.png');
+    background-position: bottom;
+    background-attachment: fixed;
+	border: 1px solid #efeded;
+	border-left: 1px solid #000000cc;
 }
 .contact-section #googleMap {
     height: 550px !important;
@@ -1398,4 +1406,16 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 }
 .gsc-input{
 	margin-top:-5px;
+}
+
+
+.reviewSlide{
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:25%;
+}
+.reviewSlide div{
+	padding-left:40px;
+	padding-right:40px;
 }
